@@ -7,7 +7,7 @@ import { Recipe } from '../recipe';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [];
-  recipe = new Recipe('Dummy', 'Dummy', 'https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjjoIyb_67RAhVLr1QKHVHuBXoQjRwIBw&url=https%3A%2F%2Fwww.tes.com%2Flessons%2Fn6GZTEAew42yzA%2Fdummy&psig=AFQjCNE9po_iBmYGD00ZpR62HHjEhPZtIw&ust=1483842768365274')
+  recipe = new Recipe('Dummy', 'Dummy', 'http://previewcf.turbosquid.com/Preview/2014/05/21__03_48_03/dummy_1.jpg73a34682-6a0e-42f8-bbeb-b21eaa495913Original.jpg');
   constructor() { }
 
   ngOnInit() {
